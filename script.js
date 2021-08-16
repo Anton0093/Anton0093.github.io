@@ -88,13 +88,13 @@ function popupFunc() {
   
   if (popup.paused){ 
       popup.play(); 
-      wrapper.style.width = '640px';
-      wrapper.style.height = '376px'
+      // wrapper.style.width = '500px';
+      // wrapper.style.height = '300px'
     }
     else{ 
       popup.pause();
-      wrapper.style.width = '500px';
-      wrapper.style.height = '300px'
-      wrapper.style.backgroundImage = "url('/img/videoBack.png')";
+      // wrapper.style.width = '500px';
+      // wrapper.style.height = '300px'
+      wrapper.style.backgroundImage = "url('/img/background/videoBack.png')";
     }
 }
