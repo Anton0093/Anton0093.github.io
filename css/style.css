@@ -425,7 +425,6 @@ body {
     display: flex;
     align-items: center;
     font-size: 15px;
-    width: 100%;
   }
   .section-footer__video-content__text h2 {
     text-align: center;
@@ -461,7 +460,6 @@ body {
   }
   .section-info__cards__item {
     margin-right: 0em;
-    width: 100%;
     margin-bottom: 0em;
   }
   .section-info__cards__item:nth-of-type(3n) {
