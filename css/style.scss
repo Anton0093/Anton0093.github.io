@@ -3,7 +3,6 @@
 *{
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
 }
 
 html {
@@ -105,6 +104,7 @@ body{
 
       h1{
         font-size: 5em;
+        margin-bottom: 0.5em;
       }
 
       h3{
@@ -168,7 +168,7 @@ body{
       text-align: center;
 
       h1{
-        margin-bottom: -0.2em;
+        margin-bottom: 0.2em;
         font-size: 6em;
         font-weight: bold;
       }
@@ -229,7 +229,8 @@ body{
         font-size: 1.7em;
         color: #7050e5;
 
-        margin-bottom: 0.5rem;
+        margin-bottom: 1em;
+        margin-top: 1em;
       }
 
       h3{
@@ -274,6 +275,7 @@ body{
         color: #878787;
         line-height: 1.4em;
         margin-bottom: 2.5em;
+        margin-top: 2.5em;
       }
     }
 
@@ -314,7 +316,6 @@ body{
 
   // footer links
   &__footer{
-    overflow-y: hidden;
     position: relative;
     height: 400px;
     background-color: #363636;
@@ -425,21 +426,21 @@ body{
   fill: #7050e5;
   position: fixed;
   right: 1%;
-  top: 30%;
+  top: 43%;
 }
 
 .c2{
   fill: #ff8b00;
   position: fixed;
   right: 1%;
-  top: 40%;
+  top: 50%;
 }
 
 .c3{
   fill: #ff8b00;
   position: fixed;
   right: 1%;
-  top: 50%;
+  top: 57%;
 }
 
 .section-footer__video-content__video-wrapper .popuptext {
@@ -513,7 +514,6 @@ body{
 
   .section-info__cards{
     padding: 0;
-    padding-right: 5em;
   }
 
   .section-info__cards__item{

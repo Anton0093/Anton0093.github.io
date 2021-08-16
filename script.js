@@ -15,7 +15,7 @@ var popup = document.getElementById("myPopup");
 function scrollTo(element){
   window.scroll({
     left:0,
-    top:element.offsetTop,
+    top:element.offsetTop + 20,
     behavior: 'smooth'
   })
 }
@@ -88,13 +88,9 @@ function popupFunc() {
   
   if (popup.paused){ 
       popup.play(); 
-      // wrapper.style.width = '500px';
-      // wrapper.style.height = '300px'
     }
     else{ 
       popup.pause();
-      // wrapper.style.width = '500px';
-      // wrapper.style.height = '300px'
       wrapper.style.backgroundImage = "url('/img/background/videoBack.png')";
     }
 }
