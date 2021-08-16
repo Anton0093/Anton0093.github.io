@@ -314,6 +314,7 @@ body{
 
   // footer links
   &__footer{
+    overflow-y: hidden;
     position: relative;
     height: 400px;
     background-color: #363636;
