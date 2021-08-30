@@ -332,19 +332,19 @@ body{
         text-transform: uppercase;
         font-weight: bold;
         font-size: 1.7em;
-        color: #ff8b00;
 
         padding-left: 0;
+
+        &__head-li{
+          color: #ff8b00!important;
+          margin-bottom: 1.2em!important;
+        }
 
         li{
           line-height: 1.2em;
           text-decoration: none;
           color: white;
           list-style-type: none;
-
-          &:first-of-type{
-            margin-top: 1.2em;
-          }
 
           a{
             text-decoration: none;

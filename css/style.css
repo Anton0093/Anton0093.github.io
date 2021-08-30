@@ -253,17 +253,17 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.7em;
-  color: #ff8b00;
   padding-left: 0;
+}
+.section-footer__footer__links__item__head-li {
+  color: #ff8b00 !important;
+  margin-bottom: 1.2em !important;
 }
 .section-footer__footer__links__item li {
   line-height: 1.2em;
   text-decoration: none;
   color: white;
   list-style-type: none;
-}
-.section-footer__footer__links__item li:first-of-type {
-  margin-top: 1.2em;
 }
 .section-footer__footer__links__item li a {
   text-decoration: none;
