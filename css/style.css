@@ -40,7 +40,6 @@ body {
 }
 .section-header__header__menu {
   display: flex;
-  align-items: top;
   color: white;
 }
 .section-header__header__menu li {
